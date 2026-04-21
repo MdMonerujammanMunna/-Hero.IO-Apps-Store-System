@@ -1,12 +1,15 @@
+"use client"
 import Image from "next/image";
 import Logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 const NavBar = () => {
+    const pathname = usePathname()
     const Button = <>
-        <li><Link href="/">Home</Link ></li>
-        <li><Link href="/Apps">Apps</Link ></li>
-        <li><Link href="/install">Installation</Link ></li>
+        <li className={`font-semibold ${pathname === "/" ? "bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] text-transparent bg-clip-text" : ""}`}><Link href="/">Home</Link ></li>
+        <li className={`font-semibold ${pathname === "/Apps" ? "bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] text-transparent bg-clip-text" : ""}`}><Link href="/Apps">Apps</Link ></li>
+        <li className={`font-semibold ${pathname === "/install" ? "bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] text-transparent bg-clip-text" : ""}`}><Link href="/install">Installation</Link ></li>
     </>;
     return (
         <div className=" container mx-auto">
@@ -22,10 +25,10 @@ const NavBar = () => {
                             {Button}
                         </ul>
                     </div>
-                    <div className="flex gap-3 items-center">
+                    <Link href="/" className="btn flex gap-3 items-center border-none outline-none shadow-none bg-white">
                         <Image src={Logo} alt="Logo" className="w-10"></Image>
                         <span className="font-bold bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] bg-clip-text text-transparent">HERO.IO</span>
-                    </div>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -33,10 +36,10 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <div className="btn text-white bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] gap-2.5">
+                    <Link href='https://github.com/MdMonerujammanMunna' target="#" className="btn text-white bg-[linear-gradient(90deg,rgba(99,46,227,1)_0%,rgba(159,98,242,1)_100%)] gap-2.5">
                         <FaGithub className="font-semibold text-xl" />
                         <span className="font-semibold">Contribute</span>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
