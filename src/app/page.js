@@ -1,5 +1,6 @@
 import HomePage from "./Home/page";
 import StatPage from "./Stat/page";
+import TrendingAppsPage from "./Trending Apps/page";
 
 export default function Home() {
 
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <HomePage></HomePage>
       <StatPage></StatPage>
+      <TrendingAppsPage></TrendingAppsPage>
     </>
   );
 }
