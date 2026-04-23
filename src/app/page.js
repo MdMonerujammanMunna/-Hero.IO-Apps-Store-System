@@ -1,11 +1,12 @@
 import HomePage from "./Home/page";
-import NavBar from "./NavBar/page";
+import StatPage from "./Stat/page";
 
 export default function Home() {
 
   return (
     <>
       <HomePage></HomePage>
+      <StatPage></StatPage>
     </>
   );
 }

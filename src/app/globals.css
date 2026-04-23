@@ -3,6 +3,6 @@
 @plugin "daisyui";
 
 
-body {
+.FontAll {
   font-family: "Inter", sans-serif;
 }
