@@ -20,7 +20,7 @@ const CardData = ({ singleData }) => {
                         </div>
                         <div className="text-[#FF8811] py-1.5 px-2.5 bg-[#FFF0E1] rounded-sm font-semibold flex items-center gap-2">
                             <FaStar />
-                            <spanp>5</spanp>
+                            <span>5</span>
                         </div>
                     </div>
                 </div>
