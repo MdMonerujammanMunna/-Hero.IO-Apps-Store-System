@@ -1,662 +1,827 @@
 {
     "MainData": [
         {
-            "image": "https://example.com/app1.png",
-            "title": "ChatMaster",
-            "companyName": "TechNova Ltd.",
             "id": 1,
-            "description": "A fast and secure messaging app.",
-            "size": 45,
-            "reviews": 1200,
-            "ratingAvg": 4.5,
-            "downloads": "5M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 50
-                },
-                {
-                    "name": "2 star",
-                    "count": 70
-                },
-                {
-                    "name": "3 star",
-                    "count": 180
-                },
-                {
-                    "name": "4 star",
-                    "count": 400
-                },
-                {
-                    "name": "5 star",
-                    "count": 500
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app2.png",
-            "title": "FitLife",
-            "companyName": "HealthCorp",
-            "id": 2,
-            "description": "Track your workouts and stay healthy.",
-            "size": 60,
-            "reviews": 900,
-            "ratingAvg": 4.2,
-            "downloads": "4M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 40
-                },
-                {
-                    "name": "2 star",
-                    "count": 60
-                },
-                {
-                    "name": "3 star",
-                    "count": 150
-                },
-                {
-                    "name": "4 star",
-                    "count": 300
-                },
-                {
-                    "name": "5 star",
-                    "count": 350
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app3.png",
-            "title": "Foodies",
-            "companyName": "YumTech",
-            "id": 3,
-            "description": "Discover and order delicious meals.",
-            "size": 75,
-            "reviews": 2000,
-            "ratingAvg": 4.6,
-            "downloads": "8M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 60
-                },
-                {
-                    "name": "2 star",
-                    "count": 80
-                },
-                {
-                    "name": "3 star",
-                    "count": 200
-                },
-                {
-                    "name": "4 star",
-                    "count": 600
-                },
-                {
-                    "name": "5 star",
-                    "count": 1060
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app4.png",
-            "title": "WeatherNow",
-            "companyName": "SkyTech",
-            "id": 4,
-            "description": "Real-time weather updates and forecasts.",
-            "size": 30,
-            "reviews": 700,
-            "ratingAvg": 4.1,
-            "downloads": "3M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 30
-                },
-                {
-                    "name": "2 star",
-                    "count": 50
-                },
-                {
-                    "name": "3 star",
-                    "count": 120
-                },
-                {
-                    "name": "4 star",
-                    "count": 250
-                },
-                {
-                    "name": "5 star",
-                    "count": 250
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app5.png",
-            "title": "EduLearn",
-            "companyName": "BrightFuture Inc.",
-            "id": 5,
-            "description": "Online courses and learning tools.",
-            "size": 90,
-            "reviews": 1500,
+            "title": "WhatsApp",
+            "companyName": "Meta",
+            "image": "https://i.ibb.co.com/Q3djQ2T1/whatsapp.png",
+            "description": "Simple, reliable, and private messaging and calling for free.",
+            "size": 42,
+            "reviews": 180000000,
             "ratingAvg": 4.7,
-            "downloads": "6M",
+            "downloads": "5B+",
             "ratings": [
                 {
                     "name": "1 star",
-                    "count": 40
+                    "count": 5000000
                 },
                 {
                     "name": "2 star",
-                    "count": 60
+                    "count": 2000000
                 },
                 {
                     "name": "3 star",
-                    "count": 200
+                    "count": 8000000
                 },
                 {
                     "name": "4 star",
-                    "count": 500
+                    "count": 25000000
                 },
                 {
                     "name": "5 star",
-                    "count": 700
+                    "count": 140000000
                 }
             ]
         },
         {
-            "image": "https://example.com/app6.png",
+            "id": 2,
+            "title": "Instagram",
+            "companyName": "Meta",
+            "image": "https://i.ibb.co.com/zTxpbh28/instagram.png",
+            "description": "Bringing you closer to the people and things you love.",
+            "size": 55,
+            "reviews": 150000000,
+            "ratingAvg": 4.5,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 8000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 3000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 12000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 37000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 90000000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "TikTok",
+            "companyName": "ByteDance",
+            "image": "https://i.ibb.co.com/0VnB5jP7/tiktok.png",
+            "description": "Short-form mobile videos that are exciting and genuine.",
+            "size": 85,
+            "reviews": 60000000,
+            "ratingAvg": 4.4,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 4000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 2000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 6000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 8000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 40000000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Facebook",
+            "companyName": "Meta",
+            "image": "https://i.ibb.co.com/PGwssJLN/facebook.png",
+            "description": "Connect with friends, family and other people you know.",
+            "size": 60,
+            "reviews": 130000000,
+            "ratingAvg": 4.1,
+            "downloads": "5B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 15000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 10000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 10000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 15000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 80000000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "YouTube",
+            "companyName": "Google",
+            "image": "https://i.ibb.co.com/wZDDGZj4/youtube.png",
+            "description": "Watch videos, subscribe to channels, and upload your own content.",
+            "size": 120,
+            "reviews": 150000000,
+            "ratingAvg": 4.6,
+            "downloads": "10B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 5000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 3000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 7000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 25000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 110000000
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "ChatGPT",
+            "companyName": "OpenAI",
+            "image": "https://i.ibb.co.com/NXz7f02/chatgpt.png",
+            "description": "Get instant answers, professional input, and creative inspiration.",
+            "size": 35,
+            "reviews": 5000000,
+            "ratingAvg": 4.8,
+            "downloads": "100M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 100000
+                },
+                {
+                    "name": "2 star",
+                    "count": 100000
+                },
+                {
+                    "name": "3 star",
+                    "count": 300000
+                },
+                {
+                    "name": "4 star",
+                    "count": 500000
+                },
+                {
+                    "name": "5 star",
+                    "count": 4000000
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Spotify",
+            "companyName": "Spotify AB",
+            "image": "https://i.ibb.co.com/Kj6YK28q/spotify.png",
+            "description": "Listen to the songs you love and discover new music.",
+            "size": 28,
+            "reviews": 32000000,
+            "ratingAvg": 4.8,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 500000
+                },
+                {
+                    "name": "2 star",
+                    "count": 500000
+                },
+                {
+                    "name": "3 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 5000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 25000000
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Netflix",
+            "companyName": "Netflix, Inc.",
+            "image": "https://i.ibb.co.com/gb0GYcJQ/netflix.png",
+            "description": "Stream movies and TV shows anytime, anywhere.",
+            "size": 45,
+            "reviews": 16000000,
+            "ratingAvg": 4.4,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 2000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 2000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 10000000
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Snapchat",
+            "companyName": "Snap Inc.",
+            "image": "https://i.ibb.co.com/0pcbCPNb/snapchat.png",
+            "description": "Share the moment with friends through disappearing photos.",
+            "size": 72,
+            "reviews": 35000000,
+            "ratingAvg": 4.2,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 3000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 2000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 3000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 5000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 22000000
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Telegram",
+            "companyName": "Telegram FZ-LLC",
+            "image": "https://i.ibb.co.com/xK1jJZHF/telegram.png",
+            "description": "Pure instant messaging — simple, fast, secure.",
+            "size": 33,
+            "reviews": 12000000,
+            "ratingAvg": 4.6,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 400000
+                },
+                {
+                    "name": "2 star",
+                    "count": 400000
+                },
+                {
+                    "name": "3 star",
+                    "count": 800000
+                },
+                {
+                    "name": "4 star",
+                    "count": 1400000
+                },
+                {
+                    "name": "5 star",
+                    "count": 9000000
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Messenger",
+            "companyName": "Meta",
+            "image": "https://i.ibb.co.com/Mdx8nTn/messenger.png",
+            "description": "Free all-in-one communication app.",
+            "size": 50,
+            "reviews": 85000000,
+            "ratingAvg": 4.0,
+            "downloads": "5B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 12000000
+                },
+                {
+                    "name": "2 star",
+                    "count": 8000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 5000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 10000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 50000000
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "X (Twitter)",
+            "companyName": "X Corp.",
+            "image": "https://i.ibb.co.com/Z1b7yTjC/x.png",
+            "description": "Real-time news and microblogging.",
+            "size": 40,
+            "reviews": 25000000,
+            "ratingAvg": 4.1,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 2500000
+                },
+                {
+                    "name": "2 star",
+                    "count": 2500000
+                },
+                {
+                    "name": "3 star",
+                    "count": 2000000
+                },
+                {
+                    "name": "4 star",
+                    "count": 3000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 15000000
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "LinkedIn",
+            "companyName": "Microsoft",
+            "image": "https://i.ibb.co.com/7x3GPzDf/linkedin.png",
+            "description": "Professional networking and job search.",
+            "size": 38,
+            "reviews": 4000000,
+            "ratingAvg": 4.3,
+            "downloads": "1B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 300000
+                },
+                {
+                    "name": "2 star",
+                    "count": 300000
+                },
+                {
+                    "name": "3 star",
+                    "count": 400000
+                },
+                {
+                    "name": "4 star",
+                    "count": 500000
+                },
+                {
+                    "name": "5 star",
+                    "count": 2500000
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Pinterest",
+            "companyName": "Pinterest",
+            "image": "https://i.ibb.co.com/g8VXxK5/pinterest.png",
+            "description": "Discover recipes and style inspiration.",
+            "size": 32,
+            "reviews": 10000000,
+            "ratingAvg": 4.6,
+            "downloads": "500M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 400000
+                },
+                {
+                    "name": "2 star",
+                    "count": 600000
+                },
+                {
+                    "name": "3 star",
+                    "count": 500000
+                },
+                {
+                    "name": "4 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 7500000
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Google Maps",
+            "companyName": "Google",
+            "image": "https://i.ibb.co.com/qF5qvGKX/google-maps.png",
+            "description": "Real-time GPS navigation and local info.",
+            "size": 48,
+            "reviews": 18000000,
+            "ratingAvg": 4.3,
+            "downloads": "10B+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 1200000
+                },
+                {
+                    "name": "2 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "3 star",
+                    "count": 1500000
+                },
+                {
+                    "name": "4 star",
+                    "count": 2300000
+                },
+                {
+                    "name": "5 star",
+                    "count": 12000000
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Discord",
+            "companyName": "Discord Inc.",
+            "image": "https://i.ibb.co.com/xtjrJKdR/discord.png",
+            "description": "A place to talk with communities.",
+            "size": 75,
+            "reviews": 6000000,
+            "ratingAvg": 4.5,
+            "downloads": "100M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 400000
+                },
+                {
+                    "name": "2 star",
+                    "count": 300000
+                },
+                {
+                    "name": "3 star",
+                    "count": 400000
+                },
+                {
+                    "name": "4 star",
+                    "count": 400000
+                },
+                {
+                    "name": "5 star",
+                    "count": 4500000
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Canva",
+            "companyName": "Canva",
+            "image": "https://i.ibb.co.com/HTSfyDkj/canva.png",
+            "description": "Create stunning designs and social posts.",
+            "size": 28,
+            "reviews": 12000000,
+            "ratingAvg": 4.7,
+            "downloads": "100M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 200000
+                },
+                {
+                    "name": "2 star",
+                    "count": 300000
+                },
+                {
+                    "name": "3 star",
+                    "count": 500000
+                },
+                {
+                    "name": "4 star",
+                    "count": 1000000
+                },
+                {
+                    "name": "5 star",
+                    "count": 10000000
+                }
+            ]
+        },
+        {
+            "id": 18,
             "title": "MusicStream",
             "companyName": "SoundWave",
-            "id": 6,
+            "image": "https://i.ibb.co.com/1GdSN6vL/music.png",
             "description": "Stream your favorite songs anytime.",
-            "size": 55,
-            "reviews": 1800,
-            "ratingAvg": 4.4,
-            "downloads": "9M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 70
-                },
-                {
-                    "name": "2 star",
-                    "count": 90
-                },
-                {
-                    "name": "3 star",
-                    "count": 300
-                },
-                {
-                    "name": "4 star",
-                    "count": 600
-                },
-                {
-                    "name": "5 star",
-                    "count": 740
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app7.png",
-            "title": "PhotoEdit Pro",
-            "companyName": "PixelSoft",
-            "id": 7,
-            "description": "Advanced photo editing tools.",
-            "size": 120,
-            "reviews": 2200,
-            "ratingAvg": 4.3,
-            "downloads": "1M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 100
-                },
-                {
-                    "name": "2 star",
-                    "count": 120
-                },
-                {
-                    "name": "3 star",
-                    "count": 400
-                },
-                {
-                    "name": "4 star",
-                    "count": 700
-                },
-                {
-                    "name": "5 star",
-                    "count": 880
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app8.png",
-            "title": "TravelBuddy",
-            "companyName": "WanderTech",
-            "id": 8,
-            "description": "Plan trips and explore destinations.",
-            "size": 80,
-            "reviews": 950,
-            "ratingAvg": 4.2,
-            "downloads": "45M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 45
-                },
-                {
-                    "name": "2 star",
-                    "count": 70
-                },
-                {
-                    "name": "3 star",
-                    "count": 200
-                },
-                {
-                    "name": "4 star",
-                    "count": 300
-                },
-                {
-                    "name": "5 star",
-                    "count": 335
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app9.png",
-            "title": "FinanceTracker",
-            "companyName": "MoneyWise",
-            "id": 9,
-            "description": "Manage your expenses and savings.",
-            "size": 40,
-            "reviews": 1100,
-            "ratingAvg": 4.5,
-            "downloads": "52M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 50
-                },
-                {
-                    "name": "2 star",
-                    "count": 60
-                },
-                {
-                    "name": "3 star",
-                    "count": 200
-                },
-                {
-                    "name": "4 star",
-                    "count": 400
-                },
-                {
-                    "name": "5 star",
-                    "count": 390
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app10.png",
-            "title": "GameZone",
-            "companyName": "FunPlay Studios",
-            "id": 10,
-            "description": "Play exciting mini games.",
-            "size": 150,
-            "reviews": 3000,
-            "ratingAvg": 4.6,
-            "downloads": "20M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 120
-                },
-                {
-                    "name": "2 star",
-                    "count": 150
-                },
-                {
-                    "name": "3 star",
-                    "count": 500
-                },
-                {
-                    "name": "4 star",
-                    "count": 900
-                },
-                {
-                    "name": "5 star",
-                    "count": 1330
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app11.png",
-            "title": "NoteKeeper",
-            "companyName": "Productive Apps",
-            "id": 11,
-            "description": "Organize notes and tasks.",
-            "size": 25,
-            "reviews": 600,
-            "ratingAvg": 4.0,
-            "downloads": "2M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 40
-                },
-                {
-                    "name": "2 star",
-                    "count": 50
-                },
-                {
-                    "name": "3 star",
-                    "count": 120
-                },
-                {
-                    "name": "4 star",
-                    "count": 200
-                },
-                {
-                    "name": "5 star",
-                    "count": 190
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app12.png",
-            "title": "LanguageLab",
-            "companyName": "LinguaTech",
-            "id": 12,
-            "description": "Learn new languages easily.",
-            "size": 85,
-            "reviews": 1400,
-            "ratingAvg": 4.7,
-            "downloads": "7M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 30
-                },
-                {
-                    "name": "2 star",
-                    "count": 50
-                },
-                {
-                    "name": "3 star",
-                    "count": 150
-                },
-                {
-                    "name": "4 star",
-                    "count": 450
-                },
-                {
-                    "name": "5 star",
-                    "count": 720
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app13.png",
-            "title": "ShopEasy",
-            "companyName": "RetailHub",
-            "id": 13,
-            "description": "Online shopping made simple.",
             "size": 95,
-            "reviews": 2500,
-            "ratingAvg": 4.3,
-            "downloads": "15M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 100
-                },
-                {
-                    "name": "2 star",
-                    "count": 150
-                },
-                {
-                    "name": "3 star",
-                    "count": 400
-                },
-                {
-                    "name": "4 star",
-                    "count": 800
-                },
-                {
-                    "name": "5 star",
-                    "count": 1050
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app14.png",
-            "title": "NewsDaily",
-            "companyName": "GlobalMedia",
-            "id": 14,
-            "description": "Stay updated with latest news.",
-            "size": 35,
-            "reviews": 800,
-            "ratingAvg": 4.1,
-            "downloads": "35M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 60
-                },
-                {
-                    "name": "2 star",
-                    "count": 70
-                },
-                {
-                    "name": "3 star",
-                    "count": 150
-                },
-                {
-                    "name": "4 star",
-                    "count": 250
-                },
-                {
-                    "name": "5 star",
-                    "count": 270
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app15.png",
-            "title": "RideNow",
-            "companyName": "UrbanMove",
-            "id": 15,
-            "description": "Book rides quickly and easily.",
-            "size": 65,
-            "reviews": 1700,
-            "ratingAvg": 4.4,
-            "downloads": "9M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 80
-                },
-                {
-                    "name": "2 star",
-                    "count": 90
-                },
-                {
-                    "name": "3 star",
-                    "count": 300
-                },
-                {
-                    "name": "4 star",
-                    "count": 600
-                },
-                {
-                    "name": "5 star",
-                    "count": 630
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app16.png",
-            "title": "MeditateMe",
-            "companyName": "CalmMind",
-            "id": 16,
-            "description": "Guided meditation and relaxation.",
-            "size": 50,
-            "reviews": 1300,
-            "ratingAvg": 4.6,
-            "downloads": "6M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 40
-                },
-                {
-                    "name": "2 star",
-                    "count": 60
-                },
-                {
-                    "name": "3 star",
-                    "count": 200
-                },
-                {
-                    "name": "4 star",
-                    "count": 400
-                },
-                {
-                    "name": "5 star",
-                    "count": 600
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app17.png",
-            "title": "DocScanner",
-            "companyName": "ScanTech",
-            "id": 17,
-            "description": "Scan and save documents digitally.",
-            "size": 28,
-            "reviews": 1000,
-            "ratingAvg": 4.3,
-            "downloads": "48M",
-            "ratings": [
-                {
-                    "name": "1 star",
-                    "count": 50
-                },
-                {
-                    "name": "2 star",
-                    "count": 70
-                },
-                {
-                    "name": "3 star",
-                    "count": 200
-                },
-                {
-                    "name": "4 star",
-                    "count": 350
-                },
-                {
-                    "name": "5 star",
-                    "count": 330
-                }
-            ]
-        },
-        {
-            "image": "https://example.com/app18.png",
-            "title": "KidsLearn",
-            "companyName": "EduKids",
-            "id": 18,
-            "description": "Educational games for kids.",
-            "size": 110,
-            "reviews": 900,
+            "reviews": 8000000,
             "ratingAvg": 4.5,
-            "downloads": "55M",
+            "downloads": "500M+",
             "ratings": [
                 {
                     "name": "1 star",
-                    "count": 30
+                    "count": 500000
                 },
                 {
                     "name": "2 star",
-                    "count": 50
+                    "count": 400000
                 },
                 {
                     "name": "3 star",
-                    "count": 150
+                    "count": 500000
                 },
                 {
                     "name": "4 star",
-                    "count": 300
+                    "count": 600000
                 },
                 {
                     "name": "5 star",
-                    "count": 370
+                    "count": 6000000
                 }
             ]
         },
         {
-            "image": "https://example.com/app19.png",
-            "title": "CryptoTrack",
-            "companyName": "BlockWise",
             "id": 19,
-            "description": "Track cryptocurrency prices.",
-            "size": 42,
-            "reviews": 750,
-            "ratingAvg": 4.2,
-            "downloads": "38M",
+            "title": "Zoom",
+            "companyName": "Zoom Video Communications",
+            "image": "https://i.ibb.co.com/M5Nkt2Wm/zoom.png",
+            "description": "Stay connected with video meetings.",
+            "size": 65,
+            "reviews": 4000000,
+            "ratingAvg": 4.0,
+            "downloads": "500M+",
             "ratings": [
                 {
                     "name": "1 star",
-                    "count": 40
+                    "count": 500000
                 },
                 {
                     "name": "2 star",
-                    "count": 60
+                    "count": 400000
                 },
                 {
                     "name": "3 star",
-                    "count": 180
+                    "count": 300000
                 },
                 {
                     "name": "4 star",
-                    "count": 250
+                    "count": 300000
                 },
                 {
                     "name": "5 star",
-                    "count": 220
+                    "count": 2500000
                 }
             ]
         },
         {
-            "image": "https://example.com/app20.png",
-            "title": "EventPlanner",
-            "companyName": "PlanIt",
             "id": 20,
-            "description": "Organize and manage events.",
-            "size": 70,
-            "reviews": 650,
-            "ratingAvg": 4.1,
-            "downloads": "3M",
+            "title": "Duolingo",
+            "companyName": "Duolingo",
+            "image": "https://i.ibb.co.com/G3G8nV8S/duolingo.png",
+            "description": "Learn a new language for free.",
+            "size": 30,
+            "reviews": 15000000,
+            "ratingAvg": 4.8,
+            "downloads": "500M+",
             "ratings": [
                 {
                     "name": "1 star",
-                    "count": 35
+                    "count": 300000
                 },
                 {
                     "name": "2 star",
-                    "count": 55
+                    "count": 400000
                 },
                 {
                     "name": "3 star",
-                    "count": 140
+                    "count": 800000
                 },
                 {
                     "name": "4 star",
-                    "count": 220
+                    "count": 1500000
                 },
                 {
                     "name": "5 star",
-                    "count": 200
+                    "count": 12000000
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Reddit",
+            "companyName": "Reddit Inc.",
+            "image": "https://i.ibb.co.com/zVWGnPq0/reddit.png",
+            "description": "The front page of the internet.",
+            "size": 42,
+            "reviews": 3500000,
+            "ratingAvg": 4.2,
+            "downloads": "100M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 400000
+                },
+                {
+                    "name": "2 star",
+                    "count": 200000
+                },
+                {
+                    "name": "3 star",
+                    "count": 200000
+                },
+                {
+                    "name": "4 star",
+                    "count": 200000
+                },
+                {
+                    "name": "5 star",
+                    "count": 2500000
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Uber",
+            "companyName": "Uber Technologies",
+            "image": "https://i.ibb.co.com/MxhBrMsR/uber.png",
+            "description": "Request a ride and get moving.",
+            "size": 62,
+            "reviews": 11000000,
+            "ratingAvg": 4.5,
+            "downloads": "500M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 800000
+                },
+                {
+                    "name": "2 star",
+                    "count": 500000
+                },
+                {
+                    "name": "3 star",
+                    "count": 600000
+                },
+                {
+                    "name": "4 star",
+                    "count": 600000
+                },
+                {
+                    "name": "5 star",
+                    "count": 8500000
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Amazon Shopping",
+            "companyName": "Amazon",
+            "image": "https://i.ibb.co.com/Pv0vdLWX/amazon.png",
+            "description": "Millions of products in your pocket.",
+            "size": 55,
+            "reviews": 5000000,
+            "ratingAvg": 4.3,
+            "downloads": "500M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 600000
+                },
+                {
+                    "name": "2 star",
+                    "count": 300000
+                },
+                {
+                    "name": "3 star",
+                    "count": 300000
+                },
+                {
+                    "name": "4 star",
+                    "count": 300000
+                },
+                {
+                    "name": "5 star",
+                    "count": 3500000
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Adobe Lightroom",
+            "companyName": "Adobe",
+            "image": "https://i.ibb.co.com/ymj5j3yr/lightroom.png",
+            "description": "Professional photo editor and camera.",
+            "size": 90,
+            "reviews": 2000000,
+            "ratingAvg": 4.6,
+            "downloads": "100M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 50000
+                },
+                {
+                    "name": "2 star",
+                    "count": 100000
+                },
+                {
+                    "name": "3 star",
+                    "count": 100000
+                },
+                {
+                    "name": "4 star",
+                    "count": 150000
+                },
+                {
+                    "name": "5 star",
+                    "count": 1600000
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Slack",
+            "companyName": "Slack Technologies",
+            "image": "https://i.ibb.co.com/7tBdk7rN/slack.png",
+            "description": "Team communication workspace.",
+            "size": 36,
+            "reviews": 1000000,
+            "ratingAvg": 4.4,
+            "downloads": "50M+",
+            "ratings": [
+                {
+                    "name": "1 star",
+                    "count": 40000
+                },
+                {
+                    "name": "2 star",
+                    "count": 60000
+                },
+                {
+                    "name": "3 star",
+                    "count": 100000
+                },
+                {
+                    "name": "4 star",
+                    "count": 50000
+                },
+                {
+                    "name": "5 star",
+                    "count": 750000
                 }
             ]
         }
