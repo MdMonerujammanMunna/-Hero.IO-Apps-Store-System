@@ -1,8 +1,8 @@
-import CardData from "@/Components/CardData";
+import CardData from "@/Components/AppsCardUi/CardData";
 
 
 const AppsPage = async () => {
-    const Data = await fetch("http://localhost:3001/MainData")
+    const Data = await fetch("https://hero-io-apps-store-system-server.onrender.com/MainData")
     const res = await Data.json()
     return (
         <>

@@ -1,8 +1,8 @@
-import CardData from '@/Components/CardData';
+import CardData from '@/Components/AppsCardUi/CardData';
 import Link from 'next/link';
 import React from 'react';
 const TrendingAppsPage = async () => {
-    const Data = await fetch("http://localhost:3001/MainData")
+    const Data = await fetch("https://hero-io-apps-store-system-server.onrender.com/MainData")
     const res = await Data.json()
     const Dataslice = await res.slice(0, 8)
     return (

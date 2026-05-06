@@ -17,9 +17,9 @@ const Footer = () => {
                     <div className="">
                         <h1 className='text-xl font-medium mb-4'>Social Links</h1>
                         <div className="flex items-center gap-4 text-xl">
-                            <Link href="https://x.com/MdMonerujamman" target='#'> <FaSquareXTwitter /></Link>
-                            <Link href="https://www.linkedin.com/in/mdmonerujammanmunna/ " target='#'><FaLinkedin /> </Link>
-                            <Link href="https://www.facebook.com/Md.MonerujammanMunna0" target='#'> <FaFacebook /></Link>
+                            <Link href="https://x.com/MdMonerujamman" className='hover:text-[#00D390]' target='#'> <FaSquareXTwitter /></Link>
+                            <Link href="https://www.linkedin.com/in/mdmonerujammanmunna/" className='hover:text-[#00D390]' target='#'><FaLinkedin /> </Link>
+                            <Link href="https://www.facebook.com/Md.MonerujammanMunna0" className='hover:text-[#00D390]' target='#'> <FaFacebook /></Link>
                         </div>
                     </div>
                 </div>

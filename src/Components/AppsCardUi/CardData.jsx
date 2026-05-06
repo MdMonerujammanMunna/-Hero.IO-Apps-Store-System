@@ -1,17 +1,16 @@
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const CardData = ({ singleData }) => {
     console.log(singleData)
     return (
         <>
-            <div className="card bg-base-100 shadow-sm">
-                <figure>
-                    <img
-                        src={singleData.image}
-                        alt="Shoes" />
-                </figure>
+            <div className="card bg-base-100 shadow-sm rounded-2xl">
+                <div className="w-full bg-[#D9D9D9] rounded-t-2xl flex justify-center items-center py-10">
+                    <Image src={singleData.image} width={80} height={80} alt={singleData.title}></Image>
+                </div>
                 <div className="card-body">
                     <h2 className="text-xl">{`${singleData.title} : ${singleData.companyName}`}</h2>
                     <div className="flex items-center justify-between">
@@ -21,8 +20,12 @@ const CardData = ({ singleData }) => {
                         </div>
                         <div className="text-[#FF8811] py-1.5 px-2.5 bg-[#FFF0E1] rounded-sm font-semibold flex items-center gap-2">
                             <FaStar />
-                            <span>5</span>
+                            <span>{singleData.ratingAvg}</span>
                         </div>
+                    </div>
+                    <div className="w-full  mt-4 font-semibold flex justify-between items-center flex-wrap gap-3">
+                        <Link href="/install" className="btn bg-[#00D390] text-white">Install Now (<span>{singleData.size}</span> MB)</Link>
+                        <Link href="" className="btn bg-[#FF8811] text-white">App Info</Link>
                     </div>
                 </div>
             </div>
