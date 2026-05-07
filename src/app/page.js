@@ -1,5 +1,5 @@
 import HomePage from "./Home/page";
-import StatPage from "./Stat/page";
+import StatPage from "../Components/Stat/page";
 import TrendingAppsPage from "./Trending Apps/page";
 
 export default function Home() {

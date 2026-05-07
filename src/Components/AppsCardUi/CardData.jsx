@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CardData = ({ singleData }) => {
-    console.log(singleData)
     return (
         <>
             <div className="card bg-base-100 shadow-sm rounded-2xl">
@@ -25,7 +24,7 @@ const CardData = ({ singleData }) => {
                     </div>
                     <div className="w-full  mt-4 font-semibold flex justify-between items-center flex-wrap gap-3">
                         <Link href="/install" className="btn bg-[#00D390] text-white">Install Now (<span>{singleData.size}</span> MB)</Link>
-                        <Link href="" className="btn bg-[#FF8811] text-white">App Info</Link>
+                        <Link href={`Apps/${singleData.id}`} className="btn bg-[#FF8811] text-white">App Info</Link>
                     </div>
                 </div>
             </div>
