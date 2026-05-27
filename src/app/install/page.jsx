@@ -1,6 +1,6 @@
-import React from 'react';
 
 const InstallationPage = () => {
+
     return (
         <div>
             Installation page
