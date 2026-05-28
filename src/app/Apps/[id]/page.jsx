@@ -5,6 +5,7 @@ import Rating from "../../../assets/icon-ratings.png"
 import Review from "../../../assets/icon-review.png"
 import Link from "next/link";
 import Chart from "@/Components/Chart/Chart";
+import Installbutton from "@/Components/InstallButton/Installbutton";
 
 const DetailsPage = async ({ params }) => {
     const { id } = await (params)
@@ -42,7 +43,7 @@ const DetailsPage = async ({ params }) => {
                             </div>
                         </div>
                         <div className="  mt-8 font-semibold grid  justify-center md:justify-start ">
-                            <Link href="/install" className="btn bg-[#00D390] text-white">Install Now (<span>75</span> MB)</Link>
+                            <Installbutton singleData={res}></Installbutton>
                         </div>
                     </div>
                 </div>

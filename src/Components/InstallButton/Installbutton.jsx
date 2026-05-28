@@ -1,17 +1,35 @@
 "use client"
 import { installAppContext } from '@/context/installcontext';
-import { redirect } from 'next/navigation';
 import { useContext } from 'react';
+import { toast } from 'react-toastify';
 
 
 const Installbutton = ({ singleData }) => {
     const { InstallApp, setInstallApp } = useContext(installAppContext);
     const ClickHandler = () => {
         if (InstallApp.find(item => item.id === singleData.id)) {
-            alert("you are already install this app");
+            toast.info("You have already installed this app.", {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
 
         } else {
-            alert(`Installing ${singleData.title}...`);
+            toast.success(`Installing ${singleData.title}...`, {
+                position: "top-center",
+                autoClose: 800,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
             setInstallApp([...InstallApp, singleData]);
         }
     }

@@ -5,13 +5,23 @@ import { installAppContext } from "@/context/installcontext";
 import Image from "next/image";
 import { useContext } from 'react';
 import { FaDownload, FaStar } from "react-icons/fa6";
+import { toast } from "react-toastify";
 
 const InstallationPage = () => {
     const { InstallApp, setInstallApp } = useContext(installAppContext);
     const RemoveHandaler = (id) => {
-        const confirmDelete = window.confirm("Are you sure you want to uninstall this app?");
-        if (confirmDelete) {
-            const updatedApps = InstallApp.filter(item => item.id !== id);
+        const updatedApps = InstallApp.filter(item => item.id !== id);
+        if (updatedApps) {
+            toast.error(`${InstallApp.find(item => item.id === id)?.title} uninstalled successfully!`, {
+                position: "top-center",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
             setInstallApp(updatedApps);
         }
 
