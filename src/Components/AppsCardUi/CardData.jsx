@@ -2,6 +2,7 @@ import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
+import Installbutton from "../InstallButton/Installbutton";
 
 const CardData = ({ singleData }) => {
     return (
@@ -23,7 +24,7 @@ const CardData = ({ singleData }) => {
                         </div>
                     </div>
                     <div className="w-full  mt-4 font-semibold flex justify-between items-center flex-wrap gap-3">
-                        <Link href="/install" className="btn bg-[#00D390] text-white">Install Now (<span>{singleData.size}</span> MB)</Link>
+                        <Installbutton singleData={singleData} />
                         <Link href={`Apps/${singleData.id}`} className="btn bg-[#FF8811] text-white">App Info</Link>
                     </div>
                 </div>

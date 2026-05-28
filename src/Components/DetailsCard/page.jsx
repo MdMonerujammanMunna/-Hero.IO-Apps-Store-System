@@ -6,6 +6,7 @@ import Download from "../../../assets/icon-downloads.png"
 import Rating from "../../../assets/icon-ratings.png"
 import Review from "../../../assets/icon-review.png"
 import Link from "next/link";
+import InstallationPage from "@/app/install/page";
 const DetailsPage = () => {
     return (
         <>
@@ -38,7 +39,7 @@ const DetailsPage = () => {
                             </div>
                         </div>
                         <div className="  mt-8 font-semibold grid  justify-center md:justify-start ">
-                            <Link href="/install" className="btn bg-[#00D390] text-white">Install Now (<span>75</span> MB)</Link>
+                            {/* <InstallationPage></InstallationPage> */}
                         </div>
                     </div>
                 </div>
